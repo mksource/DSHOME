@@ -1,5 +1,13 @@
 package com.design.sort;
-
+/*
+ * Not a Stable Sorting algorithm meaning 
+ * A sorting algorithm is called stable if it keeps elements with equal keys in the same relative order in the output as they were in the input.
+For example, in the following input the two 4's are indistinguishable:
+1,4a,3,4b,2
+And so the output of a stable sorting algorithm must be:
+1,2,3,4a,4b
+Bubble sort, merge sort, counting sort ,insertion sort are stable sorting methods. Most implementations of quicksort are not stable sorts
+ */
 import com.design.utils.InputReader;
 
 public class QuickSort {
