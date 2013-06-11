@@ -27,11 +27,11 @@ public class TreeProbelms {
 		 * keep a static variable which is increemented each time a element is visited
 		 * print the element when the count reaches count of k
 		 */
-		 findKLargest(node,k);
+		 findKLargest(node.right,k);
 		 kcount++;
 		if(kcount==k)
 			System.out.println(node.key);
-		findKLargest(node,k);
+		findKLargest(node.left,k);
 	} 
 	public void printReverseLevelOrder()
 	{

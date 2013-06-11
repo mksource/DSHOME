@@ -50,7 +50,7 @@ public class ThreadedBinaryTree {
 		TNode ans=node;
 		if(ans==null)
 			return null;
-		while(ans.LNode!=null)
+		while(ans.LNode!=HEAD)
 			ans=ans.LNode;
 		return ans;
 	}
